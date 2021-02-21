@@ -9,7 +9,12 @@ public class PracticeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PracticeApplication.class, args);
 		
-		System.out.println("hello...");
+		String[] names = {"Akash","Adarsh","Vijaya","Vikas","Niraj"};
+		
+		for(String name : names) {
+		
+		System.out.println(name);
+		}
 	}
 
 }
